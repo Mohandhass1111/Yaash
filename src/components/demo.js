@@ -1,3 +1,0 @@
-"Self-Recap"
-"self" ///////
-"self "

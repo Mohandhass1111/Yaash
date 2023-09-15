@@ -24,6 +24,7 @@ import Spread from './components/Spread';
 import HooksCounterThree from './components/HooksCounterThree';
 import HooksCounterFour from './components/HooksCounterFour';
 import HooksButton from './components/HooksButton';
+import Contextcomp1 from './components/Contextcomp1';
 
 
 
@@ -58,6 +59,8 @@ function App() {
       <List/>
       <ListKeys/>
       <Lists/>
+      <Contextcomp1/>
+
     </div>
   );
 }
