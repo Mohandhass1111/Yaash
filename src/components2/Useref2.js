@@ -10,7 +10,7 @@ function Useref2() {
         placeholder="Enter your name"
         onChange={(e) => setName(e.target.value)}
       />
-      <h3>Your name is: {Name}</h3>
+      <h3>Your name: {Name}</h3>
     </div>
   );
 }
