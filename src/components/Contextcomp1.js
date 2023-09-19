@@ -1,26 +1,27 @@
-import React, { useState, useContext } from 'react'
+import React, { useContext, useState } from 'react'
 
-const context = React.createContext();
+const Pass = React.createContext();
 
 function Contextcomp1() {
-    const [Team,setTeam] = useState('Yaash school');
+  const [channel] = useState("SUN TV");
   return (
-    <context.provider value={{Team}}>
-        <p>component priority 1</p>
-        <ChildA/>
-    </context.provider>
+    <Pass.Provider value={[channel]}>
+    <Comp2/>
+    </Pass.Provider>
   )
 }
-function ChildA(){
-    return <>
-     <p>component priority 2</p>
-     <ChildB/>
-    </>
+function Comp2(){
+  return(
+  <>
+  <Comp3/>
+  </>
+  );
+}
+function Comp3(){
+  const [channel] = useContext(Pass);
+  return(
+  <p> {channel} is Asia no 1 channel</p>
+  );
 }
 
-function ChildB(){
-    return<>
-    <p>component priority 3</p>
-    </>
-}
 export default Contextcomp1
