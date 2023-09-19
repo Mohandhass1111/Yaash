@@ -7,7 +7,7 @@ function Useref2() {
     <div>
       <input
         type="text"
-        placeholder="Enter your name"
+        placeholder="Enter your Fullname"
         onChange={(e) => setName(e.target.value)}
       />
       <h3>Your name is : {Name}</h3>
