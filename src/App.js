@@ -33,6 +33,11 @@ import UseRef3 from "./components/UseRef3";
 import UseRef4 from "./components/UseRef4";
 import UserefSample from "./components2/UserefSample";
 import Useref2 from "./components2/Useref2";
+import UseReducer from "./components2/UseReducer";
+import Qualify from "./components2/Qualify";
+import Employee from "./components2/Employee";
+import FactorialCalculator from "./components2/Usememo";
+import Map from "./components2/Map";
 
 function App() {
   return (
@@ -47,6 +52,11 @@ function App() {
       >
         Welcome to learn React
       </h1>
+      <Map />
+      <FactorialCalculator />
+      <Employee />
+      <Qualify />
+      <UseReducer />
       <UserefSample />
       <Useref2 />
       <Form />
