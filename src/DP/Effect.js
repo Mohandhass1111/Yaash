@@ -5,19 +5,28 @@ function Effect() {
   useEffect(() => {
     setTimeout(() => {
       setcount((c) => c + 1);
-    }, 500);
+    }, 1300);
   });
   return (
     <div
       style={{
         backgroundColor: "tomato",
         fontFamily: "mooli",
-        width: "500px",
+        width: "130px",
+        height: "130px",
+        borderRadius: "200px",
         textAlign: "center",
         margin: "0 auto",
+        fontSize: "16px",
       }}
     >
-      <p>I have rendered {count} times</p>
+      <p style={{ display: "inline-block" }}>
+        I <br></br>have <br></br>rendered<br></br>
+        <span style={{ fontWeight: "bold", fontFamily: "sans-serif" }}>
+          {count}
+        </span>{" "}
+        <br></br>times
+      </p>
     </div>
   );
 }
