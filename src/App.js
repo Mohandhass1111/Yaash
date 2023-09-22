@@ -38,6 +38,11 @@ import Qualify from "./components2/Qualify";
 import Employee from "./components2/Employee";
 import FactorialCalculator from "./components2/Usememo";
 import Map from "./components2/Map";
+import UseCallback from "./components2/UseCallback";
+import Counter1 from "./Custom/Counter1";
+import Counter2 from "./Custom/Counter2";
+import UseInput from "./Custom/UseInput";
+import FormVaild from "./DP/FormVaild";
 
 function App() {
   return (
@@ -52,6 +57,11 @@ function App() {
       >
         Welcome to learn React
       </h1>
+      <UseInput />
+      <FormVaild />
+      <Counter1 />
+      <Counter2 />
+      <UseCallback />
       <Map />
       <FactorialCalculator />
       <Employee />
