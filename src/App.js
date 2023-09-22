@@ -43,6 +43,8 @@ import Counter1 from "./Custom/Counter1";
 import Counter2 from "./Custom/Counter2";
 import UseInput from "./Custom/UseInput";
 import FormVaild from "./DP/FormVaild";
+import Fruits from "./DP/Fruits";
+import Effect from "./DP/Effect";
 
 function App() {
   return (
@@ -59,6 +61,8 @@ function App() {
       </h1>
       <UseInput />
       <FormVaild />
+      <Fruits />
+      <Effect />
       <Counter1 />
       <Counter2 />
       <UseCallback />
