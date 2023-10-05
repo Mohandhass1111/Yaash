@@ -5,7 +5,7 @@ function Effect() {
   useEffect(() => {
     setTimeout(() => {
       setcount((c) => c + 1);
-    }, 1300);
+    }, 1000);
   });
   return (
     <div

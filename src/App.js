@@ -37,7 +37,6 @@ import UseReducer from "./components2/UseReducer";
 import Qualify from "./components2/Qualify";
 import Employee from "./components2/Employee";
 import FactorialCalculator from "./components2/Usememo";
-import Map from "./components2/Map";
 import UseCallback from "./components2/UseCallback";
 import Counter1 from "./Custom/Counter1";
 import Counter2 from "./Custom/Counter2";
@@ -45,31 +44,38 @@ import UseInput from "./Custom/UseInput";
 import FormVaild from "./DP/FormVaild";
 import Fruits from "./DP/Fruits";
 import Effect from "./DP/Effect";
+import Effect1 from "./DP/Effect1";
+import Context from "./DP/Context";
+import Reference from "./DP/Reference";
+import Timewatch from "./DP/Timewatch";
+import Focuspart from "./DP/Focuspart";
+import Reducer1 from "./DP/Reducer";
+import Displayform from "./DP/Displayform";
+import Usecallback from "./Custom/Usecallback";
+import Zone from "./DP/Zone";
 
 function App() {
   return (
-    <div className="App" style={{ backgroundColor: "wheat" }}>
-      <h1
-        style={{
-          textAlign: "center",
-          color: "darkcyan",
-          fontWeight: "bold",
-          fontFamily: "serif",
-        }}
-      >
+    <div className="App" className="bg-pink-300">
+      <h1 className="text-cyan-600 text-center stroke-black shadow-lg">
         Welcome to learn React
       </h1>
+      <Zone />
+      <Effect1 />
+      <Timewatch />
       <UseInput />
       <FormVaild />
       <Fruits />
       <Effect />
+      <Reference />
+      <Context />
       <Counter1 />
       <Counter2 />
       <UseCallback />
-      <Map />
       <FactorialCalculator />
       <Employee />
       <Qualify />
+      <Usecallback />
       <UseReducer />
       <UserefSample />
       <Useref2 />
@@ -88,7 +94,6 @@ function App() {
       <HooksButton />
       <Count />
       <FC />
-      {/* <ClassComp /> */}
       <Homeprops
         sq_fit="4742"
         type="SQRT"
@@ -110,8 +115,11 @@ function App() {
       <Ternary />
       <List />
       <ListKeys />
+      <Focuspart />
       <Lists />
-      <Contextcomp1 />
+      <Reducer1 />
+      <Displayform />
+      <Contextcomp1 /> */}
     </div>
   );
 }
